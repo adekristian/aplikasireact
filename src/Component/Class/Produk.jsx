@@ -1,0 +1,43 @@
+import React, { Component } from 'react'
+import './CSS/Produk.css';
+
+class Produk extends Component{
+    constructor (props) {
+        super (props)
+
+        this.state = {
+            stok: this.props.stok,
+            sub :"Beli",
+            status : "Tersedia",
+            disabled : false,
+        }}
+        ButtonBeli = () =>{
+            this.setState ({
+                stok: this.state.stok -1
+            })
+            if (this.state.stok ===1){
+                this.setState({
+                    status : "Habis",
+                  disabled : true  
+                })
+            }
+        }
+
+    render (){
+        return (
+            <div className="box-stock">
+
+        
+            <h2>{this.props.nama}</h2>
+            <img src ="data:image/jpeg;base64,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" alt=""/>
+            <p><b>Rp.{this.props.harga}</b></p>
+            <p>{this.state.stok}</p>
+            <button className="btn-click" onClick={this.ButtonBeli} disabled = {this.state.disabled}>Beli</button>
+            <p>{this.state.status}</p>
+
+            </div>
+
+        )
+    }
+}
+export default Produk;
