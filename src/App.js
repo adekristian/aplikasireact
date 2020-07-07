@@ -4,11 +4,11 @@ import './App.css';
 import Home from './Component/Fungsional/Home';
 import Beranda from './Component/Class/Beranda';
 import Parent from './Component/Class/CSS/Parent';
-
+import Bootstrap from './Component/Class/Bootstrap';
 function App() {
   return (
     <div className="App">
-      <Parent/>
+      <Bootstrap/>
      
     </div>
   );
