@@ -10,14 +10,16 @@ import Bootstrap from './Component/Class/Bootstrap';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import NavbarComp from './Component/Fungsional/NavbarComp';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import DetailComp from './Component/Fungsional/DetailComp';
+
 const App =() => {
   return (
     <BrowserRouter>
      <NavbarComp/>
    <Switch>
-     <Route exact path="/" component ={HomePage} />
-     <Route exact path="/about" component ={About} />
-
+     <Route exact path="/" component={HomePage} />
+     <Route exact path="/about" component={About} />
+     <Route exact path="/detail/:id" component={DetailComp} />
    </Switch>
   
     

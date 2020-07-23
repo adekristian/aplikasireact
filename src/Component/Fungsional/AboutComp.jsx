@@ -1,7 +1,9 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron, Button, Row, Col, Container } from 'reactstrap';
+import CardComp from './CardComp';
 
-const AboutComp = (props) => {
+
+function AboutComp () {
   return (
     <div>
       <Jumbotron>
@@ -11,8 +13,15 @@ const AboutComp = (props) => {
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p className="lead">
           <Button color="primary">Learn More</Button>
-        </p>
+        </p> 
       </Jumbotron>
+      <Container>
+        <Row>
+          <Col><CardComp id="1" judul = "Belajar React"tanggal ="22/08/2020"/></Col>
+          <Col><CardComp id="2" judul = "Main Layangan"tanggal ="22/08/2020"/></Col>
+          <Col><CardComp id="3" judul = "Main Cewe"tanggal ="22/08/2020"/></Col>          
+          </Row>
+      </Container>
     </div>
   );
 };
