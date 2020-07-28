@@ -13,12 +13,12 @@ function RowProduct() {
     return (
         <Col>
             <Card>
-                <CardImg top width="100%" src="https://i.ibb.co/RYKqQqc/logo2.jpg" alt="logo2" />
+                <CardImg top width="100%" src="https://cf.shopee.co.id/file/fb4f1f1ab0c6bb8754dc4884d0b36dfa" alt="logo2" />
                
                 <CardBody>
-                    <CardTitle> Furniture </CardTitle>
-                    <CardSubtitle>Rp. 2.500.000</CardSubtitle>
-                    <CardText>Produk Furniture Almunium dengan design yang elegan </CardText>
+                    <CardTitle> T-shirt </CardTitle>
+                    <CardSubtitle>Rp.110.000</CardSubtitle>
+                    <CardText>LALALAND T-shirt WS </CardText>
                     <Button onClick={() => setValue(value + 1)}>Tambahkan Keranjang</Button>
                 </CardBody>
             </Card>

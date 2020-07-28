@@ -9,11 +9,11 @@ function CardComp(props) {
     return (
         <div>
             <Card>
-                <CardImg top width="100%" src="https://i.ibb.co/mBTrhNs/furnitur-miniblok-serba-hemat.jpg" alt="furnitur-miniblok-serba-hemat" />
+                <CardImg top width="100%" src="https://cf.shopee.co.id/file/fb4f1f1ab0c6bb8754dc4884d0b36dfa" alt="furnitur-miniblok-serba-hemat" />
                 <CardBody>
                     <CardTitle><h3>{props.judul}</h3></CardTitle>
                     <CardSubtitle>{props.tanggal}</CardSubtitle>
-                    <CardText>Produk Furniture dengan berbahan Almunium yang Tahan Karat dan Awet Jangka Panjang</CardText>
+                    <CardText>Through your imagination with our arts</CardText>
                     <Button>
                         <Link to = {
                             {

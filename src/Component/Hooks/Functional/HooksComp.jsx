@@ -5,9 +5,9 @@ const HooksComp = () => {
     const [jumlah, tambahJumlah] = useState(0)
 
     //login
-    const [dataLogin, setDataLogin] = useState({ username: 'TANSAH GANTENG', token: '123abd', isLogin: true })
+    const [dataLogin, setDataLogin] = useState({ username: 'adekristian', token: '123', isLogin: true })
 
-    //cek kondisi sudah login / elum
+    //cek kondisi sudah login / belum
 
     let tampil;
 

@@ -67,7 +67,7 @@ class ListComp extends PureComponent {
                             <th>Nama Produk</th>
                             <th>Harga Produk</th>
                             <th>Stok Produk</th>
-                            <th>Opsi</th>
+                            <th>Ukuran</th>
                         </tr>
                     </thead>
                     <tbody>

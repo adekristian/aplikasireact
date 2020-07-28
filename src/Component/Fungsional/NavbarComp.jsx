@@ -21,7 +21,7 @@ const NavbarComp = (props) => {
     const {value, setValue} = useContext(CartContext)
     return (
         <div>
-            <p class="bg-primary text-green"><marquee>TERBAIK & BERKWALITAS</marquee></p>
+    
             <Navbar color="light" light expand="md">
              
 
@@ -36,16 +36,16 @@ const NavbarComp = (props) => {
                             <NavLink to="/about" className="nav-link">Profile</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/produk" className="nav-link">Produk</NavLink>
+                            <NavLink to="/produk" className="nav-link">Product</NavLink>
                         </NavItem>
                        
                         
                         <NavItem>
-                            <NavLink to="/useeffects" className="nav-link">Katalog</NavLink>
+                            <NavLink to="/useeffects" className="nav-link">Catalog</NavLink>
                         </NavItem>
                        
                         <NavItem>
-                            <NavLink to="/reducer" className="nav-link">Transaksi</NavLink>
+                            <NavLink to="/reducer" className="nav-link">Transaction</NavLink>
                         </NavItem>
 
                     </Nav>

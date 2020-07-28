@@ -13,11 +13,11 @@ function HooksReducer() {
             <Row>
                 <Col xs="6">
                     <Card>
-                        <CardImg top width="100%" src="https://i.ibb.co/q1t66XK/logo-fiks.jpg" alt="logo-fiks" />
+                        <CardImg top width="100%" src="https://cf.shopee.co.id/file/fb4f1f1ab0c6bb8754dc4884d0b36dfa" alt="logo-fiks" />
                     </Card>
                 </Col>
                <Col xs="6">
-                    <h3>Furniture</h3>
+                    <h3>LALALAND T-SHIRT</h3>
                     <p>Harga</p>
                    
                     <h3>Rp. {countContext.keranjangState.hargatotal}</h3>

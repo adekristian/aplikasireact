@@ -38,7 +38,7 @@ const LoginComp = () => {
                                     </div>
                                     <div className="col-md-6 text-right">
                                         <Link to="/daftar" className="">
-                                            Halaman Pendaftaran
+                                            MASUK
                             </Link>
                                     </div>
                                 </div>

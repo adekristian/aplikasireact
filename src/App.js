@@ -27,8 +27,8 @@ import Beranda from './Component/Class/Beranda';
 
 const initialState = {
   jumlah: 1,
-  hargasatuan: 10000,
-  hargatotal: 10000
+  hargasatuan: 110000,
+  hargatotal: 110000
 }
 
 export const keranjangContext = createContext()
@@ -78,7 +78,7 @@ const App = () => {
         </keranjangContext.Provider>
       </CartContext.Provider>
     </BrowserRouter>
-    
+
   );
 }
 

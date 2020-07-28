@@ -18,7 +18,7 @@ function HooksUseEffects() {
 
     return (
         <Container>
-            <h2> DATA PRODUK FURNITURE</h2>
+            <h2> DATA PRODUK LALALAND</h2>
             <hr />
             <Table className="table-bordered">
                 <thead>
